@@ -32,7 +32,7 @@ st.title("Empleatronix")
 #selected_color = st.selectbox('Seleccionar color de la paleta:', sns.color_palette())
 st.write('Todos los datos sobre los empleados en una aplicación.')
 
-file_employees = "employees.csv"
+file_employees = "./data/employees.csv"
 df = pd.read_csv(file_employees)
 st.write(df)
 
